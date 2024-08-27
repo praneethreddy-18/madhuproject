@@ -15,7 +15,6 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/menu" element={<Menu />} />
           <Route exact path="/gallery" element={<Gallery/>}/>
-          <Route exact path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
     </div>
