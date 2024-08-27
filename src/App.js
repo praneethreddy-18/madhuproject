@@ -10,12 +10,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/gallery" element={<Gallery/>}/>
-          <Route path="*" element={<Pagenotfound />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/menu" element={<Menu />} />
+          <Route exact path="/gallery" element={<Gallery/>}/>
+          <Route exact path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
     </div>
