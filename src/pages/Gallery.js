@@ -12,12 +12,15 @@ export default function Gallery() {
         'https://i.pinimg.com/474x/56/89/16/568916fac789f03858fe4218211c5637.jpg',
         'https://i.pinimg.com/236x/1c/c3/28/1cc3283fac169667c198c84291141109.jpg',
         'https://i.pinimg.com/236x/d9/43/31/d94331dd451d4d365e0e6ee7a4988488.jpg',
-        
+
     ];
 
     return (
         <Layout>
             <div className="Adds">
+                <div className="menu-main">
+                    <h2>Gallery</h2>
+                </div>
                 <Box sx={{ flexGrow: 1, padding: 2 }}>
                     <Grid container spacing={2}>
                         {images.map((src, index) => (

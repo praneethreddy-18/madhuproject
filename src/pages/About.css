@@ -34,19 +34,20 @@ h2 {
   align-items: center;
   /* Vertically align items */
 }
-.image{
+
+.image {
   background-color: #fff;
   border-radius: 15px;
   margin: 80px;
   padding: 70px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -86,10 +87,10 @@ h2 {
 
 .cards-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 20px;
+
   margin-bottom: 60px;
 }
 
@@ -111,7 +112,8 @@ h2 {
 
 .card-icon {
   font-size: 24px;
-  color: black; /* Yellow color for icons */
+  color: black;
+  /* Yellow color for icons */
   margin-bottom: 10px;
 }
 
@@ -191,18 +193,20 @@ label {
   transition: all 0.2s ease-in-out;
 }
 
-input:focus + label,
-textarea:focus + label,
-input:not(:placeholder-shown) + label,
-textarea:not(:placeholder-shown) + label {
+input:focus+label,
+textarea:focus+label,
+input:not(:placeholder-shown)+label,
+textarea:not(:placeholder-shown)+label {
   top: -20px;
   left: 10px;
   font-size: 12px;
-  color: #ff0; /* Yellow color for the label */
+  color: #ff0;
+  /* Yellow color for the label */
 }
 
 .submit-button {
-  background-color: #ff0; /* Yellow background for the button */
+  background-color: #ff0;
+  /* Yellow background for the button */
   color: #1a1919;
   padding: 10px 20px;
   border: none;
@@ -220,11 +224,12 @@ textarea:not(:placeholder-shown) + label {
   .form-group {
     flex-direction: column;
   }
-  
+
   .full-width {
     width: 100%;
   }
 }
+
 .form-header {
   padding: 30px;
   margin-bottom: 20px;
@@ -235,9 +240,85 @@ textarea:not(:placeholder-shown) + label {
   color: white;
   text-align: center;
 }
-.form-header p{
+
+.form-header p {
   font-size: 15px;
   color: white;
   text-align: center;
 
+}
+
+/* Menu.css */
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.menu-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+  background-color: #ff0;
+}
+
+.menu-image {
+  width: 100%;
+  height: 250px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-title {
+  font-size: 2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.menu-description {
+  font-size: 1em;
+  padding: 0 15px 15px;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+  .menu-card {
+    width: calc(50% - 40px);
+    /* Two cards per row */
+  }
+}
+
+@media (min-width: 900px) {
+  .menu-card {
+    width: calc(33.33% - 40px);
+    /* Three cards per row */
+  }
+}
+
+.menuItem-type h2 {
+  color: yellow;
+  margin-left: 30px;
+  font-size: 3.5em;
+  padding: 30px;
+}
+
+.menu-main h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 6em;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
 }

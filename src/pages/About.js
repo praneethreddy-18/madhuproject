@@ -10,6 +10,9 @@ const About = () => {
   return (
     <Layout>
       <div className="Adds">
+      <div className="menu-main">
+          <h2>About Us</h2>
+        </div>
         <div className="highlights ">
           <div class="grid-container">
             <div className="container">
