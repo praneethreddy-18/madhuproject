@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Menu from "./pages/Menu";
-import Pagenotfound from "./pages/Pagenotfound";
 import Gallery from "./pages/Gallery";
 function App() {
   return (
