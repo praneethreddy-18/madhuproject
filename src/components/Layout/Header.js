@@ -99,6 +99,7 @@ export default function Header() {
     import "../../styles/HeaderStyles.css";
     import Logo from "../../mythris/mythris-logo.png";
     import { Collections, ContactSupport, DeliveryDining, Home, Info, RestaurantMenu, ShoppingCartCheckout } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
     
     export default function Header() {
       const [isOpen, setIsOpen] = useState(false);
@@ -134,8 +135,10 @@ export default function Header() {
                 &#9776; {/* Hamburger icon */}
               </div>
               <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-                <li className='Nav-item'><a href="/"><Home /> Home</a></li>
-                <li className='Nav-item'><a href="/about"><Info /> About</a></li>
+              <li className='Nav-item'><Link to="/"><Home />Home</Link></li>
+
+                <li className='Nav-item'><a href="/"> Home</a></li>
+                <li className='Nav-item'><Link to="/about"><Info /> About</Link></li>
                 <li className='Nav-item'><a href="/menu"><RestaurantMenu /> Menu</a></li>
                 <li className='Nav-item'><a href="/gallery"><Collections /> Gallery</a></li>
                 <li className='Nav-item'><a href="/contact"><ContactSupport /> Contact</a></li>

@@ -1,37 +1,40 @@
 import React from "react";
 import Layout from "./../components/Layout/Layout";
-import Images from "../images/1.jpg";
 const soupItemsVeg = [
   {
     id: 1,
     name: 'Rasam',
-    description: 'Classic pizza with fresh tomatoes, mozzarella, and basil.',
+    description: 'A tasty south Indian soup, traditionally prepared using tamarind juice as a base, with the addition of tomato, chilli, pepper, cumin and other spices as seasonings.',
     price: '$4.99',
-    image: "https://i.pinimg.com/236x/af/a6/25/afa625b64e63ccd145b0aa02f2fb866b.jpg"
+    image: "https://img.freepik.com/premium-photo/spicy-nuoc-cham-sauce-isolated-white-background_787273-44005.jpg?semt=ais_hybrid"
   },
   {
     id: 2,
-    name: 'Caesar Salad',
-    description: 'Crispy romaine lettuce with Caesar dressing, croutons, and parmesan.',
-    image: Images,
+    name: ' Sambar',
+    description: 'A south Indian stew made from lentils, vegetables, tamarind and spices.',
+    price: '$4.99',
+    image: "https://img.freepik.com/free-photo/top-view-delicious-soup-inside-plate-dark-surface_140725-44024.jpg?semt=ais_hybrid",
   },
   {
     id: 3,
-    name: 'Grilled Salmon',
-    description: 'Salmon fillet grilled to perfection, served with lemon butter sauce.',
-    image: 'https://example.com/grilled-salmon.jpg'
+    name: 'Tomato Soup',
+    description: 'A delicious soup made of tomatoes and cream.',
+    price: '$5.99',
+    image: 'https://img.freepik.com/premium-photo/tomato-basil-soup-with-fresh-tomatoes_118124-360999.jpg?semt=ais_hybrid'
   },
   {
     id: 4,
-    name: 'Chocolate Lava Cake',
-    description: 'Rich chocolate cake with a gooey molten center, served with vanilla ice cream.',
-    image: 'https://example.com/lava-cake.jpg'
+    name: 'Vegetable Corn Soup',
+    description: 'A delicious soup made with corn.',
+    price: '$5.99',
+    image: 'https://img.freepik.com/free-photo/corn-soup-white-bowl-black-background_123827-28225.jpg?semt=ais_hybrid'
   },
   {
     id: 5,
-    name: 'Chocolate Lava Cake',
-    description: 'Rich chocolate cake with a gooey molten center, served with vanilla ice cream.',
-    image: 'https://example.com/lava-cake.jpg'
+    name: ' Vegetable Hot & Sour Soup ',
+    description: 'A delicious soup made of spicy and tangy combination of veggies and chinese sauces.',
+    price: '$5.99',
+    image: 'https://i.pinimg.com/236x/8a/44/5c/8a445c28c053b5e2ce569aeb52597cd8.jpg'
   }
 ];
 
@@ -39,24 +42,27 @@ const soupItemsVeg = [
 const soupItemsNonVeg = [
   {
     id: 1,
-    name: 'Margherita Pizza',
-    description: 'Classic pizza with fresh tomatoes, mozzarella, and basil.',
-    image: 'https://example.com/margherita.jpg'
+    name: 'Chicken Corn Soup',
+    description: 'A delicious soup made with corn and chicken .',
+    price: '$6.99',
+    image: 'https://i.pinimg.com/236x/93/bc/18/93bc18b62795c3be06f585d7a24736ef.jpg'
   },
   {
     id: 2,
-    name: 'Caesar Salad',
-    description: 'Crispy romaine lettuce with Caesar dressing, croutons, and parmesan.',
-    image: 'https://example.com/caesar-salad.jpg'
+    name: ' Chicken Hot & Sour Soup',
+    description: 'A delicious soup made of spicy and tangy combination of veggies, chicken and chinese sauces.',
+    price: '$6.99',
+    image: 'https://i.pinimg.com/236x/8a/44/5c/8a445c28c053b5e2ce569aeb52597cd8.jpg'
   }
 ];
 
 const appetizersItemsVeg = [
   {
     id: 1,
-    name: 'Margherita Pizza',
-    description: 'Classic pizza with fresh tomatoes, mozzarella, and basil.',
-    image: 'https://example.com/margherita.jpg'
+    name: 'Aloo Bajji',
+    description: 'Sliced potatoes cooked with spicy chickpea flour batter and deep fried. Served with fresh mint and tamarind chutneys.',
+    price:"$4.99",
+    image: 'https://i.pinimg.com/236x/2a/96/ff/2a96ffe46ffe6fc6fe75d42566c49435.jpg'
   },
   {
     id: 2,
