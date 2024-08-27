@@ -66,15 +66,15 @@ const appetizersItemsVeg = [
   },
   {
     id: 2,
-    name: 'Caesar Salad',
-    description: 'Crispy romaine lettuce with Caesar dressing, croutons, and parmesan.',
-    image: 'https://example.com/caesar-salad.jpg'
+    name: 'Samosa veg (3 pieces)',
+    description: 'A triangular pastry stuffed with potatoes & peas and deep fried, served with fresh mint and tamarind chutneys.',
+    image: 'https://i.pinimg.com/236x/40/99/00/4099002ec1e832fb7e305e2cac4801fb.jpg'
   },
   {
     id: 3,
-    name: 'Grilled Salmon',
-    description: 'Salmon fillet grilled to perfection, served with lemon butter sauce.',
-    image: 'https://example.com/grilled-salmon.jpg'
+    name: 'Samosa Chat',
+    description: 'Samosa mixed with chick peas masala, chat powder and topped with mint sause, tamarind suase, yogurt and onions.',
+    image: 'https://i.pinimg.com/236x/e6/0a/39/e60a39f3e376ec0a9105f15f1417bc9a.jpg'
   },
   {
     id: 4,
