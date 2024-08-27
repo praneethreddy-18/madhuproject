@@ -136,14 +136,12 @@ import { Link } from 'react-router-dom';
               </div>
               <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
               <li className='Nav-item'><Link to="/"><Home />Home</Link></li>
-
-                <li className='Nav-item'><a href="/"> Home</a></li>
                 <li className='Nav-item'><Link to="/about"><Info /> About</Link></li>
-                <li className='Nav-item'><a href="/menu"><RestaurantMenu /> Menu</a></li>
-                <li className='Nav-item'><a href="/gallery"><Collections /> Gallery</a></li>
-                <li className='Nav-item'><a href="/contact"><ContactSupport /> Contact</a></li>
-                <li className='Nav-item'><a href="https://mythris.smartonlineorder.com/"><ShoppingCartCheckout /> Order</a></li>
-                <li className='Nav-item'><a href="https://www.doordash.com/store/mythri-s-indian-cuisine-irving-1340878/en-US"><DeliveryDining /> Delivery</a></li>
+                <li className='Nav-item'><Link to="/menu"><RestaurantMenu /> Menu</Link></li>
+                <li className='Nav-item'><Link to="/gallery"><Collections /> Gallery</Link></li>
+                <li className='Nav-item'><Link to="/contact"><ContactSupport /> Contact</Link></li>
+                <li className='Nav-item'><Link to="https://mythris.smartonlineorder.com/"><ShoppingCartCheckout /> Order</Link></li>
+                <li className='Nav-item'><Link to="https://www.doordash.com/store/mythri-s-indian-cuisine-irving-1340878/en-US"><DeliveryDining /> Delivery</Link></li>
               </ul>
             </nav>
           </header>
